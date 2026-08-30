@@ -1,0 +1,24 @@
+{
+  "name": "ts_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudra-123-patel/ts-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rudra-123-patel/ts-learn/issues"
+  },
+  "homepage": "https://github.com/rudra-123-patel/ts-learn#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
