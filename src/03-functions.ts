@@ -25,4 +25,6 @@ function sum(...numbers: number[]): number {
   return numbers.reduce((total, n) => total + n, 0);
 }
 
+//arrow function
 
+const divide = (a: number, b: number): number => a / b;

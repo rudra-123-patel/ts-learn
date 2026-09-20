@@ -19,4 +19,6 @@ console.log(greet("Bob", "Hi")); // Output: Hi, Bob!
 function sum(...numbers) {
     return numbers.reduce((total, n) => total + n, 0);
 }
+//arrow function
+const divide = (a, b) => a / b;
 //# sourceMappingURL=03-functions.js.map
