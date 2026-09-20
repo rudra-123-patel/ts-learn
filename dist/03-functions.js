@@ -21,4 +21,5 @@ function sum(...numbers) {
 }
 //arrow function
 const divide = (a, b) => a / b;
+//function type 
 //# sourceMappingURL=03-functions.js.map

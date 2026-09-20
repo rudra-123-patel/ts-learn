@@ -28,3 +28,6 @@ function sum(...numbers: number[]): number {
 //arrow function
 
 const divide = (a: number, b: number): number => a / b;
+
+//function type 
+
