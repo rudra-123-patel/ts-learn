@@ -15,4 +15,8 @@ function greet(name, greeting) {
 }
 console.log(greet("Alice")); // Output: Hello, Alice!
 console.log(greet("Bob", "Hi")); // Output: Hi, Bob!
+//rest parameter
+function sum(...numbers) {
+    return numbers.reduce((total, n) => total + n, 0);
+}
 //# sourceMappingURL=03-functions.js.map

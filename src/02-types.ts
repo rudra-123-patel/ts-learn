@@ -43,3 +43,10 @@ function subscribe(message: string): void {
 
 let u: undefined = undefined;
 let n: null = null;
+
+function abcd() {
+  while (true) {}
+}
+
+abcd();
+console.log("This will never be reached"); // This line will never be executed

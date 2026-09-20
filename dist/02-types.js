@@ -31,4 +31,9 @@ function subscribe(message) {
 //null and undefined
 let u = undefined;
 let n = null;
+function abcd() {
+    while (true) { }
+}
+abcd();
+console.log("This will never be reached"); // This line will never be executed
 //# sourceMappingURL=02-types.js.map

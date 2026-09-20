@@ -15,4 +15,5 @@ declare let userInput: unknown;
 declare function subscribe(message: string): void;
 declare let u: undefined;
 declare let n: null;
+declare function abcd(): void;
 //# sourceMappingURL=02-types.d.ts.map
