@@ -1,1 +1,1 @@
-{"version":3,"file":"07-literal-types.js","sourceRoot":"","sources":["../src/07-literal-types.ts"],"names":[],"mappings":";AAAA,uBAAuB;AAEvB,IAAI,SAA8C,CAAC;AAEnD,wBAAwB;AAExB,yBAAyB"}
+{"version":3,"file":"07-literal-types.js","sourceRoot":"","sources":["../src/07-literal-types.ts"],"names":[],"mappings":";AAAA,uBAAuB;AAEvB,IAAI,SAA8C,CAAC;AACnD,SAAS,GAAG,OAAO,CAAC,CAAC,QAAQ;AAC7B,SAAS,GAAG,OAAO,CAAC,CAAC,QAAQ;AAC7B,2GAA2G;AAE3G,wBAAwB;AAExB,IAAI,QAA+B,CAAC;AACpC,QAAQ,GAAG,CAAC,CAAC,CAAC,QAAQ"}
