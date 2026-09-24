@@ -25,11 +25,11 @@ interface Dog extends Animal {
   breed: string;
 }
 
-let myDog: Dog = {
-  name: "Buddy",
-  breed: "Golden Retriever",
-  age: 5,
-};
+// let myDog: Dog = {
+//   name: "Buddy",
+//   breed: "Golden Retriever",
+//   age: 5,
+// };
 
 // Interface can be merged and decalared multiple times
 
