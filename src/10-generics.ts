@@ -19,3 +19,29 @@ console.log(myNum);
 console.log(myName);
 
 // generics with interface
+
+// interface KeyValuePair<K, V> {
+//   key: K;
+//   value: V;
+// }
+
+// let stringNumberPair: KeyValuePair<string, number> = {
+//   key: "age",
+//   value: 30,
+// };
+
+interface KeyValuePair<K, V> {
+  key: {
+    name: string;
+    myKey: K;
+  };
+  value: V;
+}
+
+let stringNumberPair: KeyValuePair<string, number> = {
+  key: {
+    name: "Rudra",
+    myKey: "22",
+  },
+  value: 30,
+};
