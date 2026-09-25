@@ -45,3 +45,40 @@ let stringNumberPair: KeyValuePair<string, number> = {
   },
   value: 30,
 };
+
+// generics with class
+
+class DataStorage<T> {
+  private data: T[] = [];
+
+  addItem(item: T): void {
+    this.data.push(item);
+  }
+
+  removeItem(item: T): void {
+    this.data = this.data.filter((i) => i !== item);
+  }
+
+  getItem(): T[] {
+    return [...this.data];
+  }
+}
+
+let textStorage = new DataStorage<string>();
+textStorage.addItem("Rudra");
+textStorage.addItem("Patel");
+textStorage.removeItem("Rudra");
+textStorage.getItem(); // returns ["Patel"]
+
+//generics constraints
+interface Lengthwise {
+  length: number;
+}
+
+function logLength<T extends { length: number }>(arg: T): T {
+  console.log(arg.length);
+  return arg;
+}
+
+logLength("Hello Generics"); // logs 15
+logLength([1, 2, 3]); // logs 3
