@@ -1,1 +1,21 @@
 // Generics in TS
+function identity<MyType>(arg: MyType): MyType {
+  return arg;
+}
+
+let output1 = identity<string>("Hello Generics");
+let output2 = identity<number>(42);
+
+// generics with array
+
+function getFirstElement<T>(arr: T[]): T | undefined {
+  return arr[0];
+}
+
+let myNum = getFirstElement([1, 2, 3]); // returns 1
+let myName = getFirstElement(["Rudra", "Patel"]); // returns "Rudra"
+
+console.log(myNum);
+console.log(myName);
+
+// generics with interface
