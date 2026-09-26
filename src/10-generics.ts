@@ -79,6 +79,3 @@ function logLength<T extends { length: number }>(arg: T): T {
   console.log(arg.length);
   return arg;
 }
-
-logLength("Hello Generics"); // logs 15
-logLength([1, 2, 3]); // logs 3
