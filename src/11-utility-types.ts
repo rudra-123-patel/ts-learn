@@ -68,4 +68,14 @@ let pages: Merged = {
   },
 };
 
+// return type - ger return type of function
 
+function createUser() {
+  return {
+    id: 1,
+    name: "rudra",
+    email: "rjp@g.co",
+  };
+}
+
+type UserType = ReturnType<typeof createUser>;
