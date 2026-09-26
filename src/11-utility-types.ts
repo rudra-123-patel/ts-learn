@@ -41,3 +41,31 @@ type TodoPreview = Pick<Todo, "title" | "description">;
 type TodoWithoutDate = Omit<Todo, "createdAt">;
 type TodoWithoutAssign = Omit<Todo, "assignedTo">;
 
+// record - construct object type with
+//          specific keys and value type
+
+type PageInfo = {
+  title: string;
+  url: string;
+};
+
+type Pages = "home" | "about" | "contact";
+
+type Merged = Record<Pages, PageInfo>;
+
+let pages: Merged = {
+  home: {
+    title: "Home",
+    url: "/",
+  },
+  about: {
+    title: "About",
+    url: "/about",
+  },
+  contact: {
+    title: "Contact",
+    url: "/contact",
+  },
+};
+
+
