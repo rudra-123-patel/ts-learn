@@ -35,3 +35,9 @@ let myTodo: ReadonlyTodo = {
 // pick - select specific properties from a type
 
 type TodoPreview = Pick<Todo, "title" | "description">;
+
+// Omit - exclude specific properties from a type
+
+type TodoWithoutDate = Omit<Todo, "createdAt">;
+type TodoWithoutAssign = Omit<Todo, "assignedTo">;
+
